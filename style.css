@@ -6,6 +6,14 @@
     font-family: Roboto;
 }
 
+.menu, #hero-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    width: 1200px;
+}
+
 /* ===== HEADER STYLE ===== */
 
 a {
@@ -24,10 +32,6 @@ ul {
 }
 
 .menu {
-    width: 1400px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 15px;
 }
 #logo {
@@ -43,3 +47,62 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+/* ===== HERO STYLE ===== */
+
+#hero {
+    background-color: #1F2937;
+    padding: 100px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#hero #hero-body {
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.hero-text, .hero-image {
+    flex-basis: 50%;
+}
+
+/* ===== HERO TEXT ===== */
+
+.hero-text {
+    padding-right: 20px;
+}
+.hero-text h2, .hero-text p, .hero-text a {
+    margin: 10px 0;
+}
+#hero h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+#hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+#hero a {
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+}
+
+/* ===== HERO IMAGE ===== */
+
+.hero-image {
+    display: flex;
+    justify-content: end;
+    max-height: 300px;
+    min-width: 500px;
+}
+.hero-image img {
+    max-width: 90%;
+    object-fit: cover;
+}
+
+/* ===== INFORMATION SECTION ===== */
+
