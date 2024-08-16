@@ -107,7 +107,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 0 150px;
+    margin: 20px 0 100px;
 }
 .information-section h3{
     font-size: 36px;
@@ -163,4 +163,45 @@ ul {
     font-weight: bold;
     align-self: end;
     margin-top: 25px;
+}
+
+/* ===== SINGUP SECTION ===== */
+
+.signup-section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+.signup-section > div {
+    display: flex;
+    max-width: 1200px;
+    flex-basis: 1200px;
+    padding: 60px 180px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup-section a {
+    border: 2px solid white;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    padding: 7px 30px;
+}
+.signup-section a:hover {
+    background-color: white;
+    color: #3882f6;
+}
+
+/* ===== FOOT ===== */
+
+.footer {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #1F2937;
 }
